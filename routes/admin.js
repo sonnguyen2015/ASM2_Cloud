@@ -20,7 +20,7 @@ router.get('/', async function(req, res, next) {
                             name: req.body.username,
                             box: select_box_string, 
                             table: table_string })
-    // res.render('admin', { title: 'Admin Page',name:'Khoa' });
+    // res.render('admin', { title: 'Admin Page',name:'Son' });
  }
  else{
   res.render('login', { title: 'LOGIN PAGE',
